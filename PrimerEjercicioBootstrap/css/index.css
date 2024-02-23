@@ -1,0 +1,59 @@
+/*Color de la letra del main*/
+main {
+    color: azure;
+}
+/*Borde de la barra de navegación*/
+nav {
+    border-bottom: 2px solid #FFFFFF;
+}
+/*Color de fondo de toda la página*/
+*{
+    background-color: #000000;
+}
+/*Color de la letra del footer*/
+footer {
+    color: aliceblue;
+}
+/*Color y tamaño de la letra del h1*/
+#letrah1{
+    color: azure;
+    font-size: 1.5em;
+}
+/*Color y tamaño de las palabras de la barra de navegación*/
+#letraNav {
+color: aliceblue;
+font-size: 1.2em;
+}
+/*Color y tamaño del borde*/
+#borde{
+    border: 2px solid aliceblue;
+}
+/*Color de fondo*/
+#boton {
+    background-color: white;
+}
+/*Tamaño de las imagenes del podcast*/
+#img-pod {
+    width: 400px;
+    height: 250px;
+}
+/*Separación*/
+#galeriah3 {
+    padding: 40px 0 20px 0;
+}
+/*Tamaño de la imagen de las redes sociales*/
+#img-link {
+    width: 30px;
+}
+/*Separación*/
+#jamon{
+    padding: 10px 40px 10px 40px;
+}
+/*Tamaño de la imagen de los testimonios*/
+#img-logo {
+    width: 80px;
+}
+/*Separación del botón del formulario*/
+#test{
+    padding-bottom: 3em;
+}

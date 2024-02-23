@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-inverse">
+        <a class="navbar-brand " id="letrah1" href="home.html"><h1>Sin Miedo Al Éxito</h1></a>
+        <button class="navbar-toggler" id="boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto align-content-end nav navbar-nav navbar-right" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="letraNav" href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="letraNav" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="letraNav" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <form>
+            <div class="form-group" id="jamon">
+                <label for="nombreUsuario" class="form-label">Nombre de Usuario:</label>
+                <input type="text" class="form-control" id="nombreUsuario" placeholder="@mrTartaria" required>
+            </div>
+            <div class="form-group" id="jamon">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="mrempirico@tierraplana.com">
+            </div>
+            <div class="form-group" id="jamon">
+                <label for="pwd">Password:</label>
+                <input type="password" placeholder="Password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group" id="jamon">
+                <label for="genero">Genero: </label>
+                <select name="genero" id="genero" class="bg-white">
+                    <option value="hombre" class="bg-white">Hombre</option>
+                    <option value="mujer" class="bg-white">Mujer</option>
+                    <option value="reptiliano" class="bg-white">Reptiliano</option>
+                </select>
+            </div>
+            <div class="checkbox" id="jamon">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <div id="jamon">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer class="text-center fixed-bottom">
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="https://www.instagram.com/mr_tartaria__/" target="_blank" class="text-white me-3"><img id="img-link" src="../img/insta.png" alt="Instagram"></a>
+                <a href="https://twitter.com/mrtartaria_" target="_blank" class="text-white me-3"><img id="img-link" src="../img/x.png" alt="X"></a>
+                <a href="https://www.facebook.com/groups/184368254759998?locale=es_ES" target="_blank" class="text-white me-3"><img id="img-link" src="../img/facebook.png" alt="Facebook"></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

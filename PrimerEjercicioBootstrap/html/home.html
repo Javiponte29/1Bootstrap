@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-inverse">
+            <a class="navbar-brand " id="letrah1" href="home.html"><h1>Sin Miedo Al Éxito</h1></a>
+            <button class="navbar-toggler" id="boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" id="boton"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto align-content-end nav navbar-nav navbar-right" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="letraNav" href="home.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="letraNav" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="letraNav" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <main class="main-content">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/tierraPlana.png" class="d-block w-100" alt="tierra Plana">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/elDUO.jpeg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/Antartida.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        <div>
+            <h3 class="text-center" id="galeriah3">Galería de podcast</h3>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img id="img-pod" src="../img/tierraPlana.jpg" class="img-thumbnail" alt="Tierra Plana">
+                        <h4>Tierra Plana</h4>
+                        <p><strong>Mr Tartaria</strong> y <strong>Mickey Mouse Empírico</strong> explican y demuestran que la tierra es plana y 
+                            cuentan historias que han vivido.</p>
+                            <button data-bs-toggle="tooltip" data-bs-placement="top" title="Escuchar Podcast" class="btn btn-primary" ><a class="btn btn-primary" href="https://open.spotify.com/episode/5i4KFcb4mFh1XkMxtgK9Or?si=0047a8fedb524d7f" target="_blank">Eschuchar</a></button>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="img-pod" src="../img/antratidaMuro.png" class="img-thumbnail" alt="Antratida">
+                        <h4>El Muro de la Antártida</h4>
+                        <p><strong>Mr Tartaria</strong> y <strong>Mickey Mouse Empírico</strong> hablan sobre el muro de la Antártida el cuál nos 
+                            separa del resto del mundo habitado por seres superiores a los humanos.</p>
+                        <button data-bs-toggle="tooltip" data-bs-placement="top" title="Escuchar Podcast" class="btn btn-primary" ><a class="btn btn-primary" href="https://open.spotify.com/episode/5i4KFcb4mFh1XkMxtgK9Or?si=0047a8fedb524d7f" target="_blank">Eschuchar</a></button>
+                    </div>
+                    <div class="col-sm-4">
+                        <img id="img-pod" src="../img/leon.avif" class="img-thumbnail" alt="Hombre León">
+                        <h4>Hombre León</h4>
+                        <p><strong>Mr Tartaria</strong> cuenta como fue su espectacular viaje a Africa y que vió a un hombre convertirse en león y 
+                            correr por la sabana.</p>
+                        <button data-bs-toggle="tooltip" data-bs-placement="top" title="Escuchar Podcast" class="btn btn-primary" ><a class="btn btn-primary" href="https://open.spotify.com/episode/4UPfVKR3MJx1bWyorbqd8d?si=8fa17cdc3e4f4a0e" target="_blank">Eschuchar</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <section>
+                <h4>Comentarios</h4>
+                <div class="list-group">
+                        <div class="list-group-item"><strong class="bg-white">@ramon: </strong>Me han convencido, me haré terraplanista.</div>
+                        <div class="list-group-item"><strong class="bg-white">@jorge: </strong>Estos tíos saben cosas.</div>
+                        <div class="list-group-item"><strong class="bg-white">@alex: </strong>No tienen ni idea, en la Antártida vive Micheal Jackson.</div>
+                </div>
+        </section>
+        <section class="mt-4">
+            <form>
+                <div class="mb-3">
+                    <label for="nombreUsuario" class="form-label">Nombre de Usuario:</label>
+                    <input type="text" class="form-control" id="nombreUsuario" placeholder="@mrTartaria" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Es el mejor podcast que he escuchado." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+            </form>
+        </section>
+        </div>
+    </main>
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.instagram.com/mr_tartaria__/" target="_blank" class="text-white me-3"><img id="img-link" src="../img/insta.png" alt="Instagram"></a>
+                    <a href="https://twitter.com/mrtartaria_" target="_blank" class="text-white me-3"><img id="img-link" src="../img/x.png" alt="X"></a>
+                    <a href="https://www.facebook.com/groups/184368254759998?locale=es_ES" target="_blank" class="text-white me-3"><img id="img-link" src="../img/facebook.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+</html>
